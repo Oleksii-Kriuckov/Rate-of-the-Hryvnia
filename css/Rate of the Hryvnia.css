@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 230, 0);
+}
+
+h1,h3 {
+    text-align: center;
+}
+img {
+    height: 30px;
+}
+.rate {
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+#table {
+    width: 220px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 45px repeat(2, 1fr);
+    gap: 10px 20px;
+}
+
+#table span {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
