@@ -8,7 +8,7 @@ window.onload = function () {
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
             var data = JSON.parse(xhr.responseText);
-            // localStorage.data = JSON.stringify(data);
+            
             document.querySelector("#date").innerHTML = data[0].exchangedate;
             for (i = 0; i < data.length; i++) {
                 switch (data[i].cc) {
