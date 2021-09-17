@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(100deg, rgb(220, 210, 10), rgb(255, 240, 2), rgb(236, 230, 30));
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    height: 22px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    background: aquamarine;
+    border-radius: 5px;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.error {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+}
